@@ -6,11 +6,15 @@
 }
 
 <!-- Intro -->
-    <section id="intro-section" >
-        <div class="row justify-content-md-center">
-            <div class="col-12 col-lg-10 parallax-window" data-parallax="scroll" data-image-src="/images/intro.jpg" id="intro-wrapper">
-                <div id="intro-image">
+    <section id="intro-section" class="dark-background" >
+        <div class="row justify-content-md-center" style="background=">
+            <div class="col-12 parallax-window" id="intro-wrapper">
+                <img class="parallax-image" src="~/images/intro.jpg" alt="intro" id="intro-image"/>
+                <video class="col-2">
                     <h1>Yen Chiou<br />&<br />Antonio</h1>
+                </video>
+                <div class="col-8">
+                    <p>Thats right, we are getting married, what a surprise!</p>
                 </div>
             </div>
         </div>
@@ -21,11 +25,6 @@
 
 <!-- About Us -->
 @await Html.PartialAsync("_TimelinePartial", new _TimelinePartialModel())
-
-<!-- Info -->
-@*<div class="row">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/images/castillo.jpg"></div>
-    </div>*@
 
 <!-- Where -->
 @await Html.PartialAsync("_WherePartial", new _WherePartialModel())

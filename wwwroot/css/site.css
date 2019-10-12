@@ -51,7 +51,6 @@ body {
 
 #intro-image {
     position: relative;
-    top: 350px;
     width: 100%;
     text-align: center;
 }
@@ -72,10 +71,9 @@ body {
         text-shadow: 1px 1px #000;
     }
 
-.parallax-window {
-    background: transparent;
-    height: 100vh;
-    width: 100%;
+.parallax-mirror{
+    z-index: 0  !important;
+    width:100% !important;
 }
 
 .navbar {
@@ -123,7 +121,8 @@ body {
 }
 
 #intro-section {
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 400px;
 }
 
 section p {
@@ -138,7 +137,7 @@ section h1, h2 {
     text-align:center;
 }
 
-#timeline-section, #timeline-intro {
+.light-background {
     background-color: #DEF2F1;
 }
 
@@ -146,7 +145,7 @@ section h1, h2 {
     color: #18252a;
 }
 
-#intro-section, #info-section, #visit-section, #visit-intro {
+.dark-background {
     background-color: #3AAFA9;
 }
 
@@ -167,4 +166,23 @@ section h1, h2 {
 }
 
 .carousel-indicators li:hover{
+}
+
+.mapouter {
+    position: relative;
+    text-align: center;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
+
+#where-intro
+{
+    padding-bottom:0;
+}
+
+#where-section, #intro-section {
+    padding-top:0;  
 }
