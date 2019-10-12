@@ -1,0 +1,170 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+}
+
+.row {
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+./*section-image {
+    max-width: 100px;
+}*/
+
+#about-us {
+    margin-top: 20px;
+}
+
+.date {
+    padding-top: 10px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+#intro-image {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    text-align: center;
+}
+    #intro-image h1, #intro-image p {
+        font-family: 'Rancho', cursive;
+    }
+        #intro-image h1 {
+        margin-top: 0;
+        color: #ffffff;
+        font-size: 70px;
+        text-shadow: 2px 2px #000;
+    }
+
+    #intro-image p {
+        margin-top: 0;
+        color: #ffffff;
+        font-size: 15px;
+        text-shadow: 1px 1px #000;
+    }
+
+.parallax-window {
+    background: transparent;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#antonio-young-picture {
+
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/antonio.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#yenchiou-young-picture {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/yc-bb-collage.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#yenchiou-antonio-picture {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/yenchiou-antonio.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#chicken-picture {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/chicken.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#norway-picture {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/norway.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.svg-image 
+{
+    width: 100px;
+}
+
+.svg-image.small {
+    width: 50px;
+}
+
+.info {
+    max-width:80%;
+    text-align:center;  
+}
+
+#intro-section {
+    min-height: 100vh;
+}
+
+section p {
+    font-family: 'Nunito', sans-serif;
+}
+
+section h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.section-intro {
+    text-align:center;
+}
+
+#timeline-section, #timeline-intro {
+    background-color: #DEF2F1;
+}
+
+.txt-grey {
+    color: #18252a;
+}
+
+#intro-section, #info-section, #visit-section, #visit-intro {
+    background-color: #3AAFA9;
+}
+
+    #info-section h2 {
+        padding-top: 14px;    
+    }
+
+    .section-title {
+        padding-top: 18px;
+    }
+
+    .carousel a{
+        opacity: 1;
+    }
+
+.carousel a:hover {
+    opacity: 0.5;
+}
+
+.carousel-indicators li:hover{
+}
