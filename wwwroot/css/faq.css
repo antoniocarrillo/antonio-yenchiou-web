@@ -1,0 +1,31 @@
+﻿h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    color: #212529;
+    font-family: 'Lato', sans-serif;
+}
+
+    .accordion-section .panel-default .panel-title a:after {
+        display: inline-block;
+        content: ' ';
+        background-image: url('../images/svg/keyboard_arrow_up-24px.svg');
+        background-size: 24px 24px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .accordion-section .panel-default .panel-title a.collapsed:after {
+        background-image: url('../images/svg/keyboard_arrow_down-24px.svg');
+    }
+
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}

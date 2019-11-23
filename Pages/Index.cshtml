@@ -5,20 +5,11 @@
     ViewData["Title"] = "Home page";
 }
 
-<!-- Intro -->
-    <section id="intro-section" class="dark-background" >
-        <div class="row justify-content-md-center" style="background=">
-            <div class="col-12 parallax-window" id="intro-wrapper">
-                <img class="parallax-image" src="~/images/intro.jpg" alt="intro" id="intro-image"/>
-                <video class="col-2">
-                    <h1>Yen Chiou<br />&<br />Antonio</h1>
-                </video>
-                <div class="col-8">
-                    <p>Thats right, we are getting married, what a surprise!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Navigation -->
+@await Html.PartialAsync("_NavigationPartial", new _NavigationPartial())
+
+<!-- Header -->
+@await Html.PartialAsync("_IntroPartial", new _IntroPartialModel())
 
 <!-- Info -->
 @await Html.PartialAsync("_InfoPartial", new _InfoPartialModel())
@@ -31,3 +22,6 @@
 
 <!-- Attractions -->
 @await Html.PartialAsync("_VisitPartial", new _VisitPartialModel())
+
+<!-- FAQ -->
+@await Html.PartialAsync("_FAQPartial", new _FAQPartialModel())

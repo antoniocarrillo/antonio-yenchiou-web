@@ -1,6 +1,7 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
 body {
+    background-color: #3AAFA9 !important;
 }
 
 .row {
@@ -13,10 +14,9 @@ body {
     padding-right: 0;
 }
 
-./*section-image {
+. /*section-image {
     max-width: 100px;
 }*/
-
 #about-us {
     margin-top: 20px;
 }
@@ -51,13 +51,16 @@ body {
 
 #intro-image {
     position: relative;
+    top: 350px;
     width: 100%;
     text-align: center;
 }
+
     #intro-image h1, #intro-image p {
         font-family: 'Rancho', cursive;
     }
-        #intro-image h1 {
+
+    #intro-image h1 {
         margin-top: 0;
         color: #ffffff;
         font-size: 70px;
@@ -71,9 +74,10 @@ body {
         text-shadow: 1px 1px #000;
     }
 
-.parallax-mirror{
-    z-index: 0  !important;
-    width:100% !important;
+.parallax-window {
+    background: transparent;
+    height: 100vh;
+    width: 100%;
 }
 
 .navbar {
@@ -81,7 +85,6 @@ body {
 }
 
 #antonio-young-picture {
-
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/antonio.jpg) center center no-repeat;
     background-size: cover;
 }
@@ -106,23 +109,21 @@ body {
     background-size: cover;
 }
 
-.svg-image 
-{
+.svg-image {
     width: 100px;
 }
 
-.svg-image.small {
-    width: 50px;
-}
+    .svg-image.small {
+        width: 50px;
+    }
 
 .info {
-    max-width:80%;
-    text-align:center;  
+    max-width: 80%;
+    text-align: center;
 }
 
 #intro-section {
-    height: 100vh;
-    max-height: 400px;
+    min-height: 100vh;
 }
 
 section p {
@@ -134,7 +135,7 @@ section h1, h2 {
 }
 
 .section-intro {
-    text-align:center;
+    text-align: center;
 }
 
 .light-background {
@@ -149,40 +150,82 @@ section h1, h2 {
     background-color: #3AAFA9;
 }
 
-    #info-section h2 {
-        padding-top: 14px;    
-    }
-
-    .section-title {
-        padding-top: 18px;
-    }
-
-    .carousel a{
-        opacity: 1;
-    }
-
-.carousel a:hover {
-    opacity: 0.5;
+#info-section h2 {
+    padding-top: 14px;
 }
 
-.carousel-indicators li:hover{
+.section-title {
+    padding-top: 18px;
 }
 
-.mapouter {
+.carousel a {
+    opacity: 1;
+}
+
+    .carousel a:hover {
+        opacity: 0.5;
+    }
+
+.no-padding-top {
+    padding-top: 0;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+
+.masthead {
     position: relative;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 50%,#3AAFA9 100%),url('../images/intro-picture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
+    .masthead h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.6rem;
+        background: -webkit-linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.2));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: #FFF;
+    }
+
+    .masthead h2 {
+        font-family: 'Nunito', cursive;
+        max-width: 20rem;
+        font-size: 1rem;
+    }
+
+@media(min-width: 768px) {
+    .masthead h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
 }
 
-#where-intro
-{
-    padding-bottom:0;
-}
+@media(min-width: 992px) {
+    .masthead {
+        height: 100vh;
+        padding: 0;
+    }
 
-#where-section, #intro-section {
-    padding-top:0;  
+        .masthead h1 {
+            padding: 6px;
+            font-size: 4rem;
+            line-height: 6.5rem;
+            letter-spacing: 0.6rem;
+        }
+
+        .masthead h2 {
+            max-width: 30rem;
+            font-size: 1.25rem;
+        }
 }
