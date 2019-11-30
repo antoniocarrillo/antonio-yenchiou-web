@@ -3,12 +3,8 @@
 
 // Write your Javascript code.
 
-const navigation_links = document.getElementsByClassName('navigation-link');
-
-function clickHamburger() {
-    document.getElementById('hamburger').checked = false;
-}
-
-for (var i = 0; i < navigation_links.length; i++) {
-    navigation_links[i].addEventListener('click', clickHamburger, false);
-}
+$(document).ready(function () { // better to use $(document).ready(function(){
+    $('.navigation-link').on('click touchstart', function () {
+        $("#hamburger").prop('checked', false);
+    });
+});
