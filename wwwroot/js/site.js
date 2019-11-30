@@ -7,4 +7,20 @@ $(document).ready(function () { // better to use $(document).ready(function(){
     $('.navigation-link').on('click touchstart', function () {
         $("#hamburger").prop('checked', false);
     });
+
+    $('#link-timeline').on('click touchstart', function () {
+        window.location.href = '#timeline-intro';    
+    });
+
+    $('#link-where').on('click touchstart', function () {
+        window.location.href = '#where-section';
+    });
+
+    $('#link-visit').on('click touchstart', function () {
+        window.location.href = '#visit´-section';
+    });
+
+    $('#link-faq').on('click touchstart', function () {
+        window.location.href = '#faq-section';
+    });
 });
