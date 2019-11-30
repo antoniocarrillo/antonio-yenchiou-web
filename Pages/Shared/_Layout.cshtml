@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Antonio_YenChiou</title>
     <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Rancho|family=Lato:700|Nunito:400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site - responsive.css" />
     <link rel="stylesheet" href="~/css/navbar.css" />
     <link rel="stylesheet" href="~/css/timeline.css" />
     <link rel="stylesheet" href="~/css/faq.css" />
@@ -30,9 +31,13 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>Icons made by <a href="https://www.flaticon.com/authors/turkkub" title="turkkub">turkkub</a> and <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-            <p>&copy; 2019 - Antonio_YenChiou</p>
-        </footer>
+            <p class="footer-paragraph">&copy; 2019 - Antonio & Yen Chiou</p>
+            <p class="footer-paragraph small-footer">
+                Icons made by <a href="https://www.flaticon.com/authors/turkkub" title="turkkub">turkkub</a>, 
+                <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                and <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </p>
+    </footer>
     </div>
 
     <environment include="Development">
@@ -54,7 +59,6 @@
     </environment>
     <script src="~/js/navbar.js"></script>
     <script src="~/js/timeline.js"></script>
-    <script src="~/js/parallax.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

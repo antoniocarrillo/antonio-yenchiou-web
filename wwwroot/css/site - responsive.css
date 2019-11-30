@@ -1,0 +1,63 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #timeline-section .container {
+        width: 95%;
+    }
+
+    .masthead h1
+    {
+        font-size:3.5rem;
+        line-height:4rem;
+    }
+
+    .masthead h2{
+        font-size:1.5rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .masthead h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+}
+@media(max-width: 1200px) and (min-width: 768px){
+    #timeline-section .container {
+        max-width: 760px !important;
+    }
+}
+
+@media(min-width: 992px) {
+    .masthead {
+        height: 100vh;
+        padding: 0;
+    }
+
+        .masthead h1 {
+            padding: 6px;
+            font-size: 4rem;
+            line-height: 6.5rem;
+            letter-spacing: 0.6rem;
+        }
+
+        .masthead h2 {
+            max-width: 30rem;
+            font-size: 1.25rem;
+        }
+}
