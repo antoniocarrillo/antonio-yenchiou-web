@@ -12,6 +12,27 @@ p {
     font-size: 1.1rem;
 }
 
+@font-face {
+    font-family: 'Calligraffitti';
+    src: url('/fonts/calligraffitti-regular-webfont.woff2') format('woff2'), url('calligraffitti-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/nunito-regular-webfont.woff2') format('woff2'), url('nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content.container-fluid {
