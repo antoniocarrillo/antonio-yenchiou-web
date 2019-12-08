@@ -70,17 +70,3 @@ let getImageWidth = function getImageWidth(width) {
         return 576;
     }
 }
-
-let getImageHeight = function getImageWidth(width) {
-    if (width >= 1280) {
-        return 1080;
-    }
-    else if (width < 1280 & width >= 920) {
-        return 720;
-    }
-    else if (width < 920 & width > 500) {
-        return 500;
-    } else {
-        return 500;
-    }
-}
