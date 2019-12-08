@@ -17,7 +17,7 @@ $(document).ready(function () { // better to use $(document).ready(function(){
     });
 
     $('#link-visit').on('click touchstart', function () {
-        window.location.href = '#visit´-section';
+        window.location.href = '#visit-section';
     });
 
     $('#link-faq').on('click touchstart', function () {

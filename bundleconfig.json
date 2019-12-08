@@ -1,14 +1,20 @@
 [
   {
-    "outputFileName": "wwwroot/css/bootstrap.min.css",
+    "outputFileName": "wwwroot/css/bundle/bootstrap-bundle.min.css",
     "inputFiles": [
       "wwwroot/lib/bootstrap/css/bootstrap.css",
       "wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "wwwroot/lib/bootstrap/css/bootstrap-reboot.css"
-    ]
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false,
+    "includeInProject": true
   },
   {
-    "outputFileName": "wwwroot/css/site.min.css",
+    "outputFileName": "wwwroot/css/bundle/site-bundle.min.css",
     "inputFiles": [
       "wwwroot/css/site.css",
       "wwwroot/css/site - responsive.css",
@@ -16,10 +22,28 @@
       "wwwroot/css/timeline.css",
       "wwwroot/css/faq.css",
       "wwwroot/css/navigation.css"
-    ]
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false,
+    "includeInProject": true
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/js/bundle/bootstrap.min.js",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/js/bootstrap.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false,
+    "includeInProject": true
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle/site-bundle.min.js",
     "inputFiles": [
       "wwwroot/js/scrollreveal.js",
       "wwwroot/js/navbar.js",
@@ -30,6 +54,7 @@
       "enabled": true,
       "renameLocals": true
     },
-    "sourceMap": false
+    "sourceMap": false,
+    "includeInProject" :  true
   }
 ]

@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Pages\" />
+    <Folder Include="wwwroot\css\bundle\" />
+    <Folder Include="wwwroot\js\bundle\" />
   </ItemGroup>
 
 
