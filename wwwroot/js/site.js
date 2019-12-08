@@ -4,7 +4,6 @@
 // Write your Javascript code.
 
 $(document).ready(function () { // better to use $(document).ready(function(){
-
     let window_width = $(window).width();
     let imageWidth = getImageWidth(window_width);
     //let imageHeight = getImageHeight(window_width);
@@ -19,7 +18,6 @@ $(document).ready(function () { // better to use $(document).ready(function(){
             {
                 let fileName = source.match(regexJpg)[1];
                 let new_source = '/images/' + imageWidth + '/' + fileName;
-                console.log(new_source);
                 $(this).attr('src', new_source);
             }
         }
