@@ -42,6 +42,10 @@ $(document).ready(function () { // better to use $(document).ready(function(){
     $('#link-faq').on('click touchstart', function () {
         window.location.href = '#faq-section';
     });
+
+    $('#link-contact').on('click touchstart', function () {
+        window.location.href = '#post-faq-section';
+    });
 });
 
 let isSvg = function isSvg(source) {

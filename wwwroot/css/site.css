@@ -149,6 +149,22 @@ small-footer .small-footer {
     background-size: cover;
 }
 
+#contact-list{
+    list-style: none;
+}
+
+.nice-link {
+    text-decoration:underline !important;
+}
+
+    .nice-link:hover {
+        font-weight: 600 !important;
+    }
+
+#contact-list i {
+    vertical-align: bottom;
+}
+
 .svg-image {
     width: 100px;
 }

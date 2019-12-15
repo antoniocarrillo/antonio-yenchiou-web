@@ -39,7 +39,8 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 @media(max-width: 1200px) and (min-width: 768px){
     #timeline-section .container {
-        max-width: 760px !important;
+        max-width: 1200px !important;
+        width: 95%;
     }
 }
 
@@ -62,6 +63,36 @@ for details on configuring this project to bundle and minify static web assets. 
 @media(max-width:575px) {
     .masthead {
         background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 50%,#3AAFA9 100%),url('../images/576/intro-picture.jpg');
+    }
+
+    #antonio-young-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-antonio.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #yenchiou-young-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-yc.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #norway-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-norway.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #together-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-together.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #apartment-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-apartment.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #engaged-picture {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(/images/576/timeline-engaged.jpg) center center no-repeat;
+        background-size: cover;
     }
 }
 
