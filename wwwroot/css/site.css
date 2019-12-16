@@ -265,7 +265,66 @@ section h1, h2 {
         font-size: 1rem;
     }
 
-.section-text{
+#language-selector {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    margin-top: 12px;
+    margin-right: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    width: 80px;
+    padding: 4px 8px;
+    height: 34px;
+}
+
+    #language-selector[aria-expanded="true"] {
+        background-color: white;
+        border-color: white;
+        color: #3AAFA9;
+        border-radius: 0;
+        border:0;
+    }
+
+    #language-selector:focus {
+        box-shadow: none;
+    }
+
+    #language-selector[aria-expanded="true"]:hover {
+        font-weight: bold;
+    }
+
+.dropdown-menu {
+    margin-top: 0;
+    color: #DEF2F1;
+    background-color: white;
+    color: white;
+    width: 80px;
+    min-width: 80px;
+    border-radius: 0;
+    border: 0;
+    padding: 0px;
+    box-shadow: -5px 0px 65px 0px rgba(0, 0, 0, 0.18);
+}
+
+.dropdown-item {
+    color: #3AAFA9 !important;
+    padding: 4px 8px;
+    width: 80px;
+    font-size: 1.25rem;
+}
+
+    .dropdown-item:hover {
+        font-weight: bold;
+    }
+
+    .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.section-text {
     margin-top: 1rem;
 }
 .section-intro {

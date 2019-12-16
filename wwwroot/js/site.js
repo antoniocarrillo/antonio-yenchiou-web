@@ -46,6 +46,12 @@ $(document).ready(function () { // better to use $(document).ready(function(){
     $('#link-contact').on('click touchstart', function () {
         window.location.href = '#post-faq-section';
     });
+
+    $("#other-language").on('click touchstart', function () {
+        let lang = $(this).prop("lang");
+        document.cookie = "UserCulture="+ lang;
+        window.location.reload();
+    });
 });
 
 let isSvg = function isSvg(source) {

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>Yen_Chiou_Antonio_Website</RootNamespace>
+    <AssemblyName>Yen_Chiou_Antonio_Website</AssemblyName>
   </PropertyGroup>
 
 

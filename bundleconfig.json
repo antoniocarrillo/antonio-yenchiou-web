@@ -33,6 +33,7 @@
   {
     "outputFileName": "wwwroot/js/bundle/bootstrap.min.js",
     "inputFiles": [
+      "wwwroot/js/popper.js",
       "wwwroot/lib/bootstrap/js/bootstrap.js"
     ],
     "minify": {
