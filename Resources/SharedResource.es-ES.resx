@@ -117,7 +117,145 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="about_us" xml:space="preserve">
+  <data name="info_what" xml:space="preserve">
+    <value>¿Qué?</value>
+  </data>
+  <data name="info_what_text" xml:space="preserve">
+    <value>¡Nos casamos!</value>
+  </data>
+  <data name="info_when" xml:space="preserve">
+    <value>¿Cuándo?</value>
+  </data>
+  <data name="info_when_text" xml:space="preserve">
+    <value>El 26 de Septiembre del 2020</value>
+  </data>
+  <data name="info_where" xml:space="preserve">
+    <value>¿Dónde?</value>
+  </data>
+  <data name="info_where_text" xml:space="preserve">
+    <value>En el Castillo de Santiago, en Sanlúcar de Barrameda.</value>
+  </data>
+  <data name="intro_text" xml:space="preserve">
+    <value>¡En serio! ¡Nos casamos!</value>
+  </data>
+  <data name="nav_about" xml:space="preserve">
     <value>Sobre Nosotros</value>
+  </data>
+  <data name="nav_castle" xml:space="preserve">
+    <value>Castillo de Santiago</value>
+  </data>
+  <data name="nav_contact" xml:space="preserve">
+    <value>Contactar</value>
+  </data>
+  <data name="nav_faq" xml:space="preserve">
+    <value>Preguntas frecuentes</value>
+  </data>
+  <data name="nav_visit" xml:space="preserve">
+    <value>¿Qué visitar?</value>
+  </data>
+  <data name="timeline_1_date" xml:space="preserve">
+    <value>29 ABRIL 1986</value>
+  </data>
+  <data name="timeline_1_text" xml:space="preserve">
+    <value>Antonio nació en Sevilla y vivió allí con sus padres y sus dos hermanas hasta que se mudó a Polinia por Erasmus.&lt;br /&gt; Un chico tímido, siempre obsesinado con el fútbol.</value>
+  </data>
+  <data name="timeline_1_title" xml:space="preserve">
+    <value>Antonio</value>
+  </data>
+  <data name="timeline_2_date" xml:space="preserve">
+    <value>30 SEPT 1986</value>
+  </data>
+  <data name="timeline_2_text" xml:space="preserve">
+    <value>Nació en Ipoh (Malasia) y vivó en Singai Siput hasta que se mudó a Gotemburgo. Una niña muy tímida y pequeña, que amaba jugar al ping pong. Siempre la confunden con una malay (malayo-musulmán) debido a su color de piel.</value>
+  </data>
+  <data name="timeline_2_title" xml:space="preserve">
+    <value>Yen Chiou</value>
+  </data>
+  <data name="timeline_3_date" xml:space="preserve">
+    <value>5 AGO 2016</value>
+  </data>
+  <data name="timeline_3_text" xml:space="preserve">
+    <value>After meeting in SFI (swedish for intruders), we start dating. &lt;br /&gt;At SFI Antonio hates Yen Chiou, but then he tries to look cool on the dates. Tras conocernos en SFI (Sueco for intruders, empezamos a salir. Al princpio Antonio odia a Yen Chiou, pero luego se ablanda y intenta impresionarla.</value>
+  </data>
+  <data name="timeline_3_title" xml:space="preserve">
+    <value>Cómo nos conocimos</value>
+  </data>
+  <data name="timeline_4_date" xml:space="preserve">
+    <value>JUNIO 2017</value>
+  </data>
+  <data name="timeline_4_text" xml:space="preserve">
+    <value>Yen Chiou se muda  Kristiansund(Noruega) por trabajo. Vive allí durante 9 meses. Desde entonces a Yen Chiou le parece que el tiempo en Gotemburgo no es tan malo...</value>
+  </data>
+  <data name="timeline_4_title" xml:space="preserve">
+    <value>Yen Chiou se muda a Noruega</value>
+  </data>
+  <data name="timeline_5_date" xml:space="preserve">
+    <value>ENERO 2018</value>
+  </data>
+  <data name="timeline_5_text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+  </data>
+  <data name="timeline_5_title" xml:space="preserve">
+    <value>Empezamos a vivir juntos</value>
+  </data>
+  <data name="timeline_6_date" xml:space="preserve">
+    <value>MARZO 2019</value>
+  </data>
+  <data name="timeline_6_text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+  </data>
+  <data name="timeline_6_title" xml:space="preserve">
+    <value>Primer apartamento</value>
+  </data>
+  <data name="timeline_7_date" xml:space="preserve">
+    <value>4 AGO 2019</value>
+  </data>
+  <data name="timeline_7_text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+  </data>
+  <data name="timeline_7_title" xml:space="preserve">
+    <value>¡Prometidos!</value>
+  </data>
+  <data name="timeline_text" xml:space="preserve">
+    <value>Si has llegado hasta aquí, seguramente conozcas bastante de nosotros, pero quizás haya cosas que puedes descubrir sobre nuestra vida juntos.</value>
+  </data>
+  <data name="timeline_title" xml:space="preserve">
+    <value>Sobre Nosotros</value>
+  </data>
+  <data name="visit_1_text" xml:space="preserve">
+    <value>A una hora de Sanlúcar se encuentra el Algarve, la zona sur de Portugal.</value>
+  </data>
+  <data name="visit_1_title" xml:space="preserve">
+    <value>Algarve</value>
+  </data>
+  <data name="visit_2_text" xml:space="preserve">
+    <value>La ciudad donde se celebrará la boda. Famosa por su comida, playas y palacios señoriales.</value>
+  </data>
+  <data name="visit_2_title" xml:space="preserve">
+    <value>Sanlúcar de Barrameda</value>
+  </data>
+  <data name="visit_3_text" xml:space="preserve">
+    <value>Blah blah blah.</value>
+  </data>
+  <data name="visit_3_title" xml:space="preserve">
+    <value>Sevilla</value>
+  </data>
+  <data name="visit_4_text" xml:space="preserve">
+    <value>Blah blah blah.</value>
+  </data>
+  <data name="visit_4_title" xml:space="preserve">
+    <value>Granada</value>
+  </data>
+  <data name="visit_next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="visit_pev" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="visit_text" xml:space="preserve">
+    <value>Aunque vivas en Sevilla, la boda puede ser una excusa para revisitar lugares cercanos.</value>
+  </data>
+  <data name="visit_title" xml:space="preserve">
+    <value>Qué visitar</value>
   </data>
 </root>

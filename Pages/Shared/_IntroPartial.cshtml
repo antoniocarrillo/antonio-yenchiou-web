@@ -1,13 +1,17 @@
 ﻿@page
+@using Microsoft.Extensions.Localization;
+@using System.Threading;
+@using Yen_Chiou_Antonio_Website.Resources;
+@inject IStringLocalizer<SharedResource> localizer
 @model Antonio_YenChiou.Pages.Shared._IntroPartialModel
 @*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 *@
-    <header class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase">Yen Chiou & Antonio</h1>
-                <h2 id="intro-subtext" class="text-white-50 mx-auto mt-2 mb-5">Yes, we are getting married!</h2>
-            </div>
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">Yen Chiou & Antonio</h1>
+            <h2 id="intro-subtext" class="text-white-50 mx-auto mt-2 mb-5">@localizer["intro_text"]</h2>
         </div>
-    </header>
+    </div>
+</header>

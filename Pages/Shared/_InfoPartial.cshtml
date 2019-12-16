@@ -1,4 +1,8 @@
 ﻿@page
+@using Microsoft.Extensions.Localization;
+@using System.Threading;
+@using Yen_Chiou_Antonio_Website.Resources;
+@inject IStringLocalizer<SharedResource> localizer
 @model Antonio_YenChiou.Pages.Shared._InfoPartialModel
 @*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
@@ -6,18 +10,18 @@
 
 <section id="info-section" class="row justify-content-md-center dark-background">
     <div class="txt-grey info col-lg-3 col-md-10 col-12">
-        <img class="svg-image" src="~/images/svg/002-ring.svg"/>
-        <h2>What?</h2>
-        <p>We are getting married!</p>
+        <img class="svg-image" src="~/images/svg/002-ring.svg" />
+        <h2>@localizer["info_what"]</h2>
+        <p>@localizer["info_what_text"]</p>
     </div>
     <div class="txt-grey info col-lg-3 col-md-10 col-12">
         <img class="svg-image" src="~/images/svg/003-calendar.svg" />
-        <h2>When?</h2>
-        <p>The 26th of September of 2020.</p>
+        <h2>@localizer["info_when"]</h2>
+        <p>@localizer["info_when_text"]</p>
     </div>
     <div class="txt-grey info col-lg-3 col-md-10 col-12">
         <img class="svg-image" src="~/images/svg/001-map.svg" />
-        <h2>Where?</h2>
-        <p>In the Castle of Santiago. In Sanlúcar de Barrameda, Cádiz, Spain.</p>
+        <h2>@localizer["info_where"]</h2>
+        <p>@localizer["info_where_text"]</p>
     </div>
 </section>
