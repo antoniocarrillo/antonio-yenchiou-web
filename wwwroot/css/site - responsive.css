@@ -1,14 +1,6 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
-}
-
 @media (max-width: 768px)
 {
     #timeline-section .container {
@@ -27,6 +19,29 @@ for details on configuring this project to bundle and minify static web assets. 
 
     p {
         font-size: 1.4rem;
+    }
+
+    .carousel-caption {
+        top: 0;
+        display: block !important;
+    }
+
+        .carousel-caption h5 {
+            font-weight: bold;
+        }
+
+        .carousel-caption p {
+            display: none;
+        }
+
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #where-section-3, #visit-section-2, #visit-map-section {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -61,6 +76,7 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 @media(max-width:575px) {
+
     .masthead {
         background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 50%,#3AAFA9 100%),url('../images/576/intro-picture.jpg');
     }
@@ -137,4 +153,8 @@ for details on configuring this project to bundle and minify static web assets. 
             max-width: 30rem;
             font-size: 1.25rem;
         }
+
+    #visit-section-2, #where-section-3 {
+        padding-bottom: 50px;
+    }
 }

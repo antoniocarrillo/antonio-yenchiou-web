@@ -40,6 +40,19 @@ p , ul, li{
     padding-right: 0;
 }
 
+section {
+    padding-top: 40px;
+}
+
+#timeline-section {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+#info-section {
+    padding-bottom: 50px;
+}
+
 #faq-section{
     padding-bottom: 30px;
 }
@@ -155,6 +168,7 @@ small-footer .small-footer {
 
 .nice-link {
     text-decoration:underline !important;
+    opacity:0.9;
 }
 
     .nice-link:hover {

@@ -130,7 +130,7 @@
                     &lt;/li&gt;
                     &lt;li&gt;
                         &lt;i class="material-icons"&gt;email&lt;/i&gt;
-                        Email: &lt;a class="nice-link" href="mailto:yenchiou@hotmail.com"&gt;yenchiou@hotmail.com&lt;/a&gt; (Yen Chiou) &amp; &lt;a class="nice-link" href="mailto:antonio.carrillo.ce@gmail.com"&gt;antonio.carrillo.ce@gmail.com&lt;/a&gt; (Antonio)
+                        Email: &lt;a class="nice-link" href="mailto:yenchiou@hotmail.com"&gt;yenchiou@hotmail.com&lt;/a&gt; (Yen Chiou) &amp; &lt;a class="nice-link" href="mailto:antonio.carrillo.ce@gmail.com"&gt;antonio.carrillo.ce@gmail.com&lt;/a&gt; (Antonio).
                     &lt;/li&gt;
                 &lt;/ul&gt;</value>
   </data>
@@ -138,7 +138,7 @@
     <value>No hay código de vestimenta como tal, cada uno puede venir como se encuentre más agusto. Pero lo más normal es que la mayoría vaya vestido como en cualquier bodas española, vestido las mujeres y traje y chaqueta los hombres.</value>
   </data>
   <data name="faq_answer2" xml:space="preserve">
-    <value>Sanlúcar tiene varios hoteles como el &lt;a href="https://www.palaciodearizon.es/?gclid=Cj0KCQiAgKzwBRCjARIsABBbFuhiiTkPuEJrfDfS-cPIHActioTgdTAr2X1zUm6aXNPTIXw-WXBko-QaAoXUEALw_wcB" target="_blank"&gt;Palacio de Arizón&lt;/a&gt; o el hotel en el &lt;a href="https://www.ruralduquesmedinasidonia.com/" target="_blank"&gt; Palacio de los Duques&lt;/a&gt;. Dado que es un lugar de playa, también hay muchos airbnb en alquiler.</value>
+    <value>Sanlúcar tiene varios hoteles como el &lt;a class="nice-link" href="https://www.palaciodearizon.es/?gclid=Cj0KCQiAgKzwBRCjARIsABBbFuhiiTkPuEJrfDfS-cPIHActioTgdTAr2X1zUm6aXNPTIXw-WXBko-QaAoXUEALw_wcB" target="_blank"&gt;Palacio de Arizón&lt;/a&gt; o el hotel en el &lt;a class="nice-link"  href="https://www.ruralduquesmedinasidonia.com/" target="_blank"&gt; Palacio de los Duques&lt;/a&gt;. Dado que es un lugar de playa, también hay muchos airbnb en alquiler.</value>
   </data>
   <data name="faq_answer3" xml:space="preserve">
     <value>Most of the spanish cannot converse well in English but they are very friendly and willing to help.&lt;/p&gt;</value>
@@ -228,7 +228,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>29 ABRIL 1986</value>
   </data>
   <data name="timeline_1_text1" xml:space="preserve">
-    <value>Antonio nació en Sevilla y vivió allí con sus padres y sus dos hermanas hasta que se mudó a Polinia por Erasmus.</value>
+    <value>Antonio nació en Sevilla y vivió allí con sus padres y sus dos hermanas hasta que se mudó a Polonia por Erasmus.</value>
   </data>
   <data name="timeline_1_text2" xml:space="preserve">
     <value>Un chico tímido, siempre obsesinado con el fútbol.</value>
@@ -240,7 +240,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>30 SEPT 1986</value>
   </data>
   <data name="timeline_2_text" xml:space="preserve">
-    <value>Nació en Ipoh (Malasia) y vivó en Singai Siput hasta que se mudó a Gotemburgo. Una niña muy tímida y pequeña, que amaba jugar al ping pong. Pese a ser malaya-china, siempre la confunden con una malay (malayo-musulmán) debido a su color de piel.</value>
+    <value>Nació en Ipoh (Malasia) y vivó en Singai Siput hasta que se mudó a Gotemburgo. Una niña muy tímida y pequeña, a la que le vuelve loca el ping pong. Pese a ser malaya-china, siempre la confunden con una malay (malayo-musulmán) debido a su color de piel.</value>
   </data>
   <data name="timeline_2_title" xml:space="preserve">
     <value>Yen Chiou</value>
@@ -252,7 +252,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>Tras conocernos en SFI (Sueco para Invasores), empezamos a salir.</value>
   </data>
   <data name="timeline_3_text2" xml:space="preserve">
-    <value>Al principio Antonio no sopota a Yen Chiou, pero luego se ablanda e intenta impresionarla.</value>
+    <value>Al principio Antonio no sopota a Yen Chiou (ella no para de cachondearse de él), pero luego se ablanda e intenta impresionarla.</value>
   </data>
   <data name="timeline_3_title" xml:space="preserve">
     <value>Cómo nos conocimos</value>
@@ -270,7 +270,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>ENERO 2018</value>
   </data>
   <data name="timeline_5_text" xml:space="preserve">
-    <value>Finalmente Yen Chiou vuelve a Gotemburgo y decidimos irnos a vivir juntos. Comienza así nuestro infierno particular en el terrible mercado de alquiler en Suecia.</value>
+    <value>Finalmente Yen Chiou vuelve a Gotemburgo y decidimos irnos a vivir juntos. &lt;/br&gt;Comienza así nuestro infierno particular en el terrible mercado de alquiler en Suecia.</value>
   </data>
   <data name="timeline_5_title" xml:space="preserve">
     <value>Empezamos a vivir juntos</value>
@@ -279,7 +279,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>MARZO 2019</value>
   </data>
   <data name="timeline_6_text" xml:space="preserve">
-    <value>Yen Chiou por fin convence a Antonio para comprar un apartamento juntos. La búsqueda es difícil pero conseguimos mudarnos a nuestra propio hogar. Renovar las paredes fue una experiencia terrible pero conseguimos arreglar un par de habitaciones.</value>
+    <value>Yen Chiou por fin convence a Antonio para comprar un apartamento juntos. La búsqueda es difícil pero conseguimos mudarnos a nuestra propio hogar. &lt;/br&gt;Renovar las paredes fue una experiencia terrible pero conseguimos arreglar un par de habitaciones.</value>
   </data>
   <data name="timeline_6_title" xml:space="preserve">
     <value>Primer apartamento</value>
@@ -288,7 +288,7 @@ Pero dado que las bodas malayo-españolas no son algo común, es posible que ten
     <value>4 AGO 2019</value>
   </data>
   <data name="timeline_7_text" xml:space="preserve">
-    <value>Antonio le pide a Yen Chiou que se case con ella en San Sebastán. Él intenta ser romántico pero casi la caga (como siempre). La comida en el Berasategui era buena pero acabamos llenos y harto sde tanta gelatina.</value>
+    <value>Antonio le pide a Yen Chiou que se case con ella en San Sebastán. Él intenta ser romántico pero casi la caga (como siempre). &lt;/br&gt;La comida en el Berasategui era buena pero acabamos llenos y harto sde tanta gelatina.</value>
   </data>
   <data name="timeline_7_title" xml:space="preserve">
     <value>¡Prometidos!</value>
@@ -356,10 +356,9 @@ Fue, por ejemplo, residencia de los Reyes Católicos.</value>
     <value>Para Navegantes</value>
   </data>
   <data name="where_text" xml:space="preserve">
-    <value>La boda se celebra en un lugar muy especial, un castillo.
-Este magnífico castillo del siglo 15 y rehabilitado por un mecenas privado en 2003 es uno de los lugares más destacados de Sanlucar.
-Junto a otros eventos históricos, se dice que fue usado por Magallanes y Elcano antes de empezar su vuelta alrededor del mundo.
-   Among other historical events, it is known for being the place where the first trip around the world started in 1519.</value>
+    <value>La boda se celebra en un lugar muy especial, un castillo. &lt;/br&gt;
+Este magnífico castillo del siglo 15 y rehabilitado por un mecenas privado en 2003 es uno de los lugares más destacados de Sanlucar.&lt;/br&gt;
+Junto a otros eventos históricos, se dice que fue usado por Magallanes y Elcano antes de empezar su vuelta alrededor del mundo.</value>
   </data>
   <data name="where_title" xml:space="preserve">
     <value>Castillo de Santiago</value>

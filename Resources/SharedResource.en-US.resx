@@ -135,13 +135,13 @@
                 &lt;/ul&gt;</value>
   </data>
   <data name="faq_answer1" xml:space="preserve">
-    <value>There is no dress code for our wedding, feel free to wear anything comfortable. However, in spain, people normally dress up for example suit and tie for men and dress for women.</value>
+    <value>There is no dress code for our wedding, feel free to wear anything comfortable. However, in Spain, people normally dress up for example suit and tie for men and dress for women.</value>
   </data>
   <data name="faq_answer2" xml:space="preserve">
     <value>Both Madrid and Barcelona have international airports, which should be the most convenient. However it depends on your plan if you would like to visit other countries in Europe.</value>
   </data>
   <data name="faq_answer3" xml:space="preserve">
-    <value>Most of the spanish cannot converse well in English but they are very friendly and willing to help.&lt;/p&gt;</value>
+    <value>Most of the spanish cannot converse well in English but they are very friendly and willing to help.</value>
   </data>
   <data name="faq_answer4" xml:space="preserve">
     <value>The wedding will be a combination of Spanish and Malaysian Chinese traditions. The approximate schedule would be:
@@ -164,7 +164,7 @@
                             &lt;/ul&gt;</value>
   </data>
   <data name="faq_answer5" xml:space="preserve">
-    <value>Less than Malaysia (just kidding).</value>
+    <value>No, neither Sevilla or Sanlucar are dangerous places, they are very safe to travel to. Of course, like in any touristic area, it is advisable to beware pickpocketers.</value>
   </data>
   <data name="faq_question1" xml:space="preserve">
     <value>What is the dress code for the wedding?</value>
@@ -182,7 +182,7 @@
     <value>Is Spain dangerous?</value>
   </data>
   <data name="faq_text" xml:space="preserve">
-    <value>We want everyone to feel confortable in the wedding and to have a good time. But since Malaysian-Spanish weddings are not a common thing you might have some questions...</value>
+    <value>We want everyone to feel confortable in the wedding and to have a good time. But since Malaysian-Spanish weddings are not a common thing (at least for us, its the first one) you might have some questions...</value>
   </data>
   <data name="faq_title" xml:space="preserve">
     <value>FAQ</value>
@@ -229,7 +229,7 @@
   <data name="timeline_1_text1" xml:space="preserve">
     <value>Antonio was born in Sevilla and lived there with his parents and his two sisters until he moved to Poland to study Erasmus.</value>
   </data>
-  <data name="timeline_1_text_2" xml:space="preserve">
+  <data name="timeline_1_text2" xml:space="preserve">
     <value>Shy kid and obsessed with football.</value>
   </data>
   <data name="timeline_1_title" xml:space="preserve">
@@ -260,7 +260,7 @@
     <value>JUNE 2017</value>
   </data>
   <data name="timeline_4_text" xml:space="preserve">
-    <value>Yen Chiou moved to Kristiansund (Norway) for work. She lived there for 9 months and in order to live there, she has Swedish driving license. (one of her biggest achievements in sweden :-) ) . Yen Chiou thinks that Gothenburg weather is great after living in Kristiansund.</value>
+    <value>Yen Chiou moved to Kristiansund (Norway) for work. She lived there for 9 months and in order to live there, she got a Swedish driving license. (one of her biggest achievements in sweden :-) ) . Yen Chiou thinks that Gothenburg weather is great after living in Kristiansund.</value>
   </data>
   <data name="timeline_4_title" xml:space="preserve">
     <value>Yen Chiou moves to Norway</value>
@@ -269,7 +269,7 @@
     <value>JANUARY 2018</value>
   </data>
   <data name="timeline_5_text" xml:space="preserve">
-    <value>Finally Yen Chiou comes back to Gothenburg, and we deicede to start living together. Here starts our noghtmare in the Swedish renting market.</value>
+    <value>Finally Yen Chiou comes back to Gothenburg, and we decide to start living together. &lt;/br&gt;Here starts our nightmare in the Swedish renting market.</value>
   </data>
   <data name="timeline_5_title" xml:space="preserve">
     <value>Move back together</value>
@@ -278,7 +278,7 @@
     <value>MARCH 2019</value>
   </data>
   <data name="timeline_6_text" xml:space="preserve">
-    <value>Yen Chiou finally convinces Antonio to buy an apartment. The search is tough but we manage to move to our own place. Removing wallpaper is a terrible experience but we manage to put together a couple of rooms.</value>
+    <value>Yen Chiou finally convinces Antonio to buy an apartment. The search is tough but we manage to move to our own place. &lt;/br&gt;Removing wallpaper is a terrible experience but we manage to put together a couple of rooms.</value>
   </data>
   <data name="timeline_6_title" xml:space="preserve">
     <value>First apartment</value>
@@ -287,13 +287,13 @@
     <value>4 AUG 2019</value>
   </data>
   <data name="timeline_7_text" xml:space="preserve">
-    <value>Antonio asks Yen Chiou to marry her in San Sebastián. He tries to be romantic but he nearly ruin it. The food in Berasategui was good, but we ended up so full and sick of so many gelatins.</value>
+    <value>Antonio asks Yen Chiou to marry her in San Sebastián. He tries to be romantic but he nearly ruins it. &lt;/br&gt; The food in Berasategui was good, but we ended up so full and sick of so many gelatins.</value>
   </data>
   <data name="timeline_7_title" xml:space="preserve">
     <value>Engaged!</value>
   </data>
   <data name="timeline_text" xml:space="preserve">
-    <value>If you got to this site, you should already know a bit about us, but here is a quick summary of how we got here.</value>
+    <value>If you got to this site, you should already know a bit about us, but here is a quick summary of how we got here...</value>
   </data>
   <data name="timeline_title" xml:space="preserve">
     <value>About Us</value>
@@ -311,7 +311,7 @@
     <value>Sanlúcar de Barrameda</value>
   </data>
   <data name="visit_3_text" xml:space="preserve">
-    <value>The city were Antonio comes from. One of the most touristic places in Spain and worth a visit.</value>
+    <value>The city were Antonio was born. One of the most touristic places in Spain and worth a visit.</value>
   </data>
   <data name="visit_3_title" xml:space="preserve">
     <value>Sevilla</value>
@@ -329,7 +329,7 @@
     <value>Previous</value>
   </data>
   <data name="visit_text" xml:space="preserve">
-    <value>Since you decided to go all the way to Spain, maybe you should also spend a bit more time and visit         all the wonderful places near the castle. These are some suggestions of places to visit within one hour of the wedding venue.</value>
+    <value>Since you decided to go all the way to Spain, maybe you should also spend a bit more time and visit all the wonderful places near the castle. &lt;/br&gt;These are some suggestions of places to visit within one hour of the wedding venue.</value>
   </data>
   <data name="visit_title" xml:space="preserve">
     <value>What to visit</value>
@@ -347,16 +347,15 @@
     <value>History</value>
   </data>
   <data name="where_sailors_text" xml:space="preserve">
-    <value>Given Sanlucars strategic location, the castle has hosted illustrous explorers and sailors such as Cristopher Colombus (discovery of America) or Magallanes and Elcano (first round trip around the globe).</value>
+    <value>Given Sanlucar strategic location, the castle has hosted illustrous explorers and sailors such as Cristopher Colombus (discovery of America) or Magallanes and Elcano (first round trip around the globe).</value>
   </data>
   <data name="where_sailors_title" xml:space="preserve">
     <value>Sailors favourite</value>
   </data>
   <data name="where_text" xml:space="preserve">
-    <value>The wedding is taking place in a very special place, a castle.
-                This wonderful 15th-century castle, which was restored with private funds in 2003 is one of the landmarks in Sanluucar.
-                Among other historical events, it is known for being the place where the first trip around the world started
-                in 1519.</value>
+    <value>The wedding is taking place in a very special place, a castle.&lt;/br&gt;
+This wonderful 15th-century castle, which was restored with private funds in 2003 is one of the landmarks in Sanlucar.&lt;/br&gt;
+ Among other historical events, it is known for being the place where the first trip around the world started in 1519.</value>
   </data>
   <data name="where_title" xml:space="preserve">
     <value>Castillo de Santiago</value>

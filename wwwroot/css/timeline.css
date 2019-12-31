@@ -1,4 +1,4 @@
-﻿section {
+﻿#timeline-section {
     padding: 100px 0;
 }
 
@@ -139,6 +139,7 @@ header {
     .timeline-card p {
         padding: 0 20px;
         min-height: 132px;
+
     }
 
     .timeline-card a {
