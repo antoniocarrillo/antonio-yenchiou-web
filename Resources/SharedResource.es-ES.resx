@@ -117,6 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="contact" xml:space="preserve">
+    <value>Si aun tienes algunas dudas, no dudes en contactarnos de cualquiera de las siguientes formas:
+                &lt;ul id="contact-list"&gt;
+                    &lt;li&gt;
+                        &lt;i class="material-icons"&gt;message&lt;/i&gt;
+                        Facebook/Messenger si nos tienes como contacto a alguno de los dos.
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;i class="material-icons"&gt;perm_phone_msg&lt;/i&gt;
+                        Whatsapp/llamadaq: &lt;a class="nice-link" href="tel:+46-79-305-78-28"&gt;+46 79 305 78 28&lt;/a&gt; (Yen Chiou) &amp; &lt;a class="nice-link" href="tel:+46-73-598-71-34"&gt;+46 73 598 71 34&lt;/a&gt; (Antonio).
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;i class="material-icons"&gt;email&lt;/i&gt;
+                        Email: &lt;a class="nice-link" href="mailto:yenchiou@hotmail.com"&gt;yenchiou@hotmail.com&lt;/a&gt; (Yen Chiou) &amp; &lt;a class="nice-link" href="mailto:antonio.carrillo.ce@gmail.com"&gt;antonio.carrillo.ce@gmail.com&lt;/a&gt; (Antonio)
+                    &lt;/li&gt;
+                &lt;/ul&gt;</value>
+  </data>
+  <data name="faq_answer1" xml:space="preserve">
+    <value>No hay código de vestimenta como tal, cada uno puede venir como se encuentre más agusto. Pero lo más normal es que la mayoría vaya vestido como en cualquier bodas española, vestido las mujeres y traje y chaqueta los hombres.</value>
+  </data>
+  <data name="faq_answer2" xml:space="preserve">
+    <value>Sanlúcar tiene varios hoteles como el &lt;a href="https://www.palaciodearizon.es/?gclid=Cj0KCQiAgKzwBRCjARIsABBbFuhiiTkPuEJrfDfS-cPIHActioTgdTAr2X1zUm6aXNPTIXw-WXBko-QaAoXUEALw_wcB" target="_blank"&gt;Palacio de Arizón&lt;/a&gt; o el hotel en el &lt;a href="https://www.ruralduquesmedinasidonia.com/" target="_blank"&gt; Palacio de los Duques&lt;/a&gt;. Dado que es un lugar de playa, también hay muchos airbnb en alquiler.</value>
+  </data>
+  <data name="faq_answer3" xml:space="preserve">
+    <value>Most of the spanish cannot converse well in English but they are very friendly and willing to help.&lt;/p&gt;</value>
+  </data>
+  <data name="faq_answer4" xml:space="preserve">
+    <value>La boda será una combinación de tradiciones españolas y chinas (chinos malayos):
+&lt;ul&gt;
+                                &lt;li&gt;
+                                    Ceremonia civil en  en una de las salas del castillo.
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    Ceremonia del té. &lt;a href="https://www.teasenz.com/es/te-chino/ceremonia-de-te-de-boda-china.html" target="_blank"&gt;Link a vídeo&lt;/a&gt;.
+                                &lt;/li&gt;
+                                &lt;li&gt;
+				   Cocktail pre cena en el patio.
+                                &lt;/li&gt;
+                                &lt;li&gt;
+					Cena en el patio.
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    Fiesta con música y barra libre en el interior.
+                                &lt;/li&gt;
+                            &lt;/ul&gt;</value>
+  </data>
+  <data name="faq_answer5" xml:space="preserve">
+    <value>Less than Malaysia (just kidding).</value>
+  </data>
+  <data name="faq_question1" xml:space="preserve">
+    <value>¿Cuál es el código de vestimenta?</value>
+  </data>
+  <data name="faq_question2" xml:space="preserve">
+    <value>¿Dónde quedarse en Sanlúcar?</value>
+  </data>
+  <data name="faq_question3" xml:space="preserve">
+    <value>How can I communicate with Spanish people?</value>
+  </data>
+  <data name="faq_question4" xml:space="preserve">
+    <value>¿Qué tipo de boda será?</value>
+  </data>
+  <data name="faq_question5" xml:space="preserve">
+    <value>Is Spain dangerous?</value>
+  </data>
+  <data name="faq_text" xml:space="preserve">
+    <value>Lo más importante para nosotros es que todo el mundo disfrute y se sienta a gusto.
+Pero dado que las bodas malayo-españolas no son algo común, es posible que tengas algunas dudas...</value>
+  </data>
+  <data name="faq_title" xml:space="preserve">
+    <value>Preguntas Frecuentes</value>
+  </data>
   <data name="info_what" xml:space="preserve">
     <value>¿Qué?</value>
   </data>
@@ -156,8 +227,11 @@
   <data name="timeline_1_date" xml:space="preserve">
     <value>29 ABRIL 1986</value>
   </data>
-  <data name="timeline_1_text" xml:space="preserve">
-    <value>Antonio nació en Sevilla y vivió allí con sus padres y sus dos hermanas hasta que se mudó a Polinia por Erasmus.&lt;br /&gt; Un chico tímido, siempre obsesinado con el fútbol.</value>
+  <data name="timeline_1_text1" xml:space="preserve">
+    <value>Antonio nació en Sevilla y vivió allí con sus padres y sus dos hermanas hasta que se mudó a Polinia por Erasmus.</value>
+  </data>
+  <data name="timeline_1_text2" xml:space="preserve">
+    <value>Un chico tímido, siempre obsesinado con el fútbol.</value>
   </data>
   <data name="timeline_1_title" xml:space="preserve">
     <value>Antonio</value>
@@ -166,7 +240,7 @@
     <value>30 SEPT 1986</value>
   </data>
   <data name="timeline_2_text" xml:space="preserve">
-    <value>Nació en Ipoh (Malasia) y vivó en Singai Siput hasta que se mudó a Gotemburgo. Una niña muy tímida y pequeña, que amaba jugar al ping pong. Siempre la confunden con una malay (malayo-musulmán) debido a su color de piel.</value>
+    <value>Nació en Ipoh (Malasia) y vivó en Singai Siput hasta que se mudó a Gotemburgo. Una niña muy tímida y pequeña, que amaba jugar al ping pong. Pese a ser malaya-china, siempre la confunden con una malay (malayo-musulmán) debido a su color de piel.</value>
   </data>
   <data name="timeline_2_title" xml:space="preserve">
     <value>Yen Chiou</value>
@@ -174,8 +248,11 @@
   <data name="timeline_3_date" xml:space="preserve">
     <value>5 AGO 2016</value>
   </data>
-  <data name="timeline_3_text" xml:space="preserve">
-    <value>After meeting in SFI (swedish for intruders), we start dating. &lt;br /&gt;At SFI Antonio hates Yen Chiou, but then he tries to look cool on the dates. Tras conocernos en SFI (Sueco for intruders, empezamos a salir. Al princpio Antonio odia a Yen Chiou, pero luego se ablanda y intenta impresionarla.</value>
+  <data name="timeline_3_text1" xml:space="preserve">
+    <value>Tras conocernos en SFI (Sueco para Invasores), empezamos a salir.</value>
+  </data>
+  <data name="timeline_3_text2" xml:space="preserve">
+    <value>Al principio Antonio no sopota a Yen Chiou, pero luego se ablanda e intenta impresionarla.</value>
   </data>
   <data name="timeline_3_title" xml:space="preserve">
     <value>Cómo nos conocimos</value>
@@ -193,7 +270,7 @@
     <value>ENERO 2018</value>
   </data>
   <data name="timeline_5_text" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+    <value>Finalmente Yen Chiou vuelve a Gotemburgo y decidimos irnos a vivir juntos. Comienza así nuestro infierno particular en el terrible mercado de alquiler en Suecia.</value>
   </data>
   <data name="timeline_5_title" xml:space="preserve">
     <value>Empezamos a vivir juntos</value>
@@ -202,7 +279,7 @@
     <value>MARZO 2019</value>
   </data>
   <data name="timeline_6_text" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+    <value>Yen Chiou por fin convence a Antonio para comprar un apartamento juntos. La búsqueda es difícil pero conseguimos mudarnos a nuestra propio hogar. Renovar las paredes fue una experiencia terrible pero conseguimos arreglar un par de habitaciones.</value>
   </data>
   <data name="timeline_6_title" xml:space="preserve">
     <value>Primer apartamento</value>
@@ -211,7 +288,7 @@
     <value>4 AGO 2019</value>
   </data>
   <data name="timeline_7_text" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</value>
+    <value>Antonio le pide a Yen Chiou que se case con ella en San Sebastán. Él intenta ser romántico pero casi la caga (como siempre). La comida en el Berasategui era buena pero acabamos llenos y harto sde tanta gelatina.</value>
   </data>
   <data name="timeline_7_title" xml:space="preserve">
     <value>¡Prometidos!</value>
@@ -235,13 +312,13 @@
     <value>Sanlúcar de Barrameda</value>
   </data>
   <data name="visit_3_text" xml:space="preserve">
-    <value>Blah blah blah.</value>
+    <value>Poco que añadir sobre Sevilla. Ciudad natal de Antonio y capital de Andalucía.</value>
   </data>
   <data name="visit_3_title" xml:space="preserve">
     <value>Sevilla</value>
   </data>
   <data name="visit_4_text" xml:space="preserve">
-    <value>Blah blah blah.</value>
+    <value>A dos horas de Sevilla, una de las ciudades más impresionantes de Andalucía con su maravillosa Alhambra.</value>
   </data>
   <data name="visit_4_title" xml:space="preserve">
     <value>Granada</value>
@@ -253,9 +330,38 @@
     <value>Anterior</value>
   </data>
   <data name="visit_text" xml:space="preserve">
-    <value>Aunque vivas en Sevilla, la boda puede ser una excusa para revisitar lugares cercanos.</value>
+    <value>Esta sección está dedicada a los guiris que vienen de visita, pero aunque vivas en Sevilla, la boda puede ser una excusa para revisitar lugares cercanos.</value>
   </data>
   <data name="visit_title" xml:space="preserve">
     <value>Qué visitar</value>
+  </data>
+  <data name="where_haunted_text" xml:space="preserve">
+    <value>Algunos de los guías y personal de limpieza han confesado sufrir fenómenos poltergeist en el castillo.
+Incluso Iker Jiménez llegó a hacer un capítulo de Cuarto Milenio en el castillo  &lt;a class="nice-link" href="https://www.cuatro.com/cuarto-milenio/castillo-lamentos-investigacion-comprobado-golpes-voces_2_2686455018.html" target="_blank"&gt;link&lt;/a&gt;.</value>
+  </data>
+  <data name="where_haunted_title" xml:space="preserve">
+    <value>Encantado</value>
+  </data>
+  <data name="where_history_text" xml:space="preserve">
+    <value>Construido entre 1468 y 1492, esta castillo de estilo Gótico tardío ha tenido un rol importante en la zona.
+Fue, por ejemplo, residencia de los Reyes Católicos.</value>
+  </data>
+  <data name="where_history_title" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="where_sailors_text" xml:space="preserve">
+    <value>Dada la situación estratrégica de Sanlucar, el castillo ha hospedado algunos navegantes y exploradores como Colón, Magallanes y Elcano.</value>
+  </data>
+  <data name="where_sailors_title" xml:space="preserve">
+    <value>Para Navegantes</value>
+  </data>
+  <data name="where_text" xml:space="preserve">
+    <value>La boda se celebra en un lugar muy especial, un castillo.
+Este magnífico castillo del siglo 15 y rehabilitado por un mecenas privado en 2003 es uno de los lugares más destacados de Sanlucar.
+Junto a otros eventos históricos, se dice que fue usado por Magallanes y Elcano antes de empezar su vuelta alrededor del mundo.
+   Among other historical events, it is known for being the place where the first trip around the world started in 1519.</value>
+  </data>
+  <data name="where_title" xml:space="preserve">
+    <value>Castillo de Santiago</value>
   </data>
 </root>

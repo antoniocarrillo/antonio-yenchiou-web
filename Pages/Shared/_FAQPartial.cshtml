@@ -1,4 +1,9 @@
 ﻿@page
+@using System.Globalization;
+@using Microsoft.Extensions.Localization;
+@using System.Threading;
+@using Yen_Chiou_Antonio_Website.Resources;
+@inject IStringLocalizer<SharedResource> localizer
 @model Antonio_YenChiou.Pages.Shared._FAQPartialModel
 @*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,12 +16,12 @@
     </div>
     <div class="section-title row justify-content-md-center">
         <div class="col-lg-6 col-12">
-            <h1>FAQ</h1>
+            <h1>@localizer["faq_title"]</h1>
         </div>
     </div>
     <div class="section-text row justify-content-md-center">
         <div class="col-lg-8 col-12">
-            <p>We want everyone to feel confortable in the wedding and to have a good time. But since Malaysian-Spanish weddings are not a common thing you might have some questions...</p>
+            <p>@localizer["faq_text"]</p>
         </div>
     </div>
 </section>
@@ -27,14 +32,14 @@
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                            What is the dress code for the wedding?
+                            @localizer["faq_question1"]
                         </a>
                     </h3>
                 </div>
                 <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
                     <div class="panel-body px-3 mb-4">
                         <p>
-                            There is no dress code for our wedding, feel free to wear anything comfortable. However, in spain, people normally dress up for example suit and tie for men and dress for women.
+                            @localizer["faq_answer1"]
                         </p>
                     </div>
                 </div>
@@ -44,106 +49,81 @@
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                            Where should i fly to if I depart from Malaysia?
+                            @localizer["faq_question2"]
                         </a>
                     </h3>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
                     <div class="panel-body px-3 mb-4">
                         <p>
-                            Both Madrid and Barcelona have international airports, which should be the most convenient. However it depends on your plan if you would like to visit other countries in Europe.
+                            @Html.Raw(localizer["faq_answer2"])
                         </p>
                     </div>
                 </div>
             </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-                    <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                            How can I communicate with Spanish people?
-                        </a>
-                    </h3>
-                </div>
-                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                    <div class="panel-body px-3 mb-4">
-                        <p>Most of the spanish cannot converse well in English but they are very friendly and willing to help.</p>
+            @if (CultureInfo.CurrentCulture.TwoLetterISOLanguageName == "en")
+            {
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                        <h3 class="panel-title">
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                @localizer["faq_question3"]
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                        <div class="panel-body px-3 mb-4">
+                            <p>
+                                @localizer["faq_answer3"]
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            }
             <div class="panel panel-default">
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                            What type of wedding it is?
+                            @localizer["faq_question4"]
                         </a>
                     </h3>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body px-3 mb-4">
                         <p>
-                            The wedding will be a combination of Spanish and Malaysian Chinese traditions. The approximate schedule would be:
-                            <ul>
-                                <li>
-                                    Civil ceremony in one of the Castles rooms.
-                                </li>
-                                <li>
-                                    Tea ceremony.
-                                </li>
-                                <li>
-                                    Pre-dining cocktail (informal standing snacks with drinks).
-                                </li>
-                                <li>
-                                    Dining.
-                                </li>
-                                <li>
-                                    Party with music. Alcohol included.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
+                            @Html.Raw(localizer["faq_answer4"])
+
+                    </p>
                 </div>
             </div>
+        </div>
+        @if (CultureInfo.CurrentCulture.TwoLetterISOLanguageName == "en")
+        {
             <div class="panel panel-default">
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse3">
-                            Is Spain dangerous?
+                            @localizer["faq_question5"]
                         </a>
                     </h3>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body px-3 mb-4">
                         <p>
-                            Less than Malaysia
+                            @localizer["faq_answer5"]
                         </p>
                     </div>
                 </div>
             </div>
+        }
         </div>
     </div>
 </section>
 <section id="post-faq-section" class="clearfix dark-background no-padding-top no-padding-bottom">
     <div class="section-image row justify-content-center">
         <div class="col-lg-8 col-10">
-            <p>
-                If you still have questions or want to contact us, please use the following methods:
-                <ul id="contact-list">
-                    <li>
-                        <i class="material-icons">message</i>
-                        Facebook/Messenger if you have us as a contact.
-                    </li>
-                    <li>
-                        <i class="material-icons">perm_phone_msg</i>
-                        Whatsapp/call: <a class="nice-link" href="tel:+46-79-305-78-28">+46 79 305 78 28</a> (Yen Chiou) & <a class="nice-link" href="tel:+46-73-598-71-34">+46 73 598 71 34</a> (Antonio).
-                    </li>
-                    <li>
-                        <i class="material-icons">email</i>
-                        Email: <a class="nice-link" href="mailto:yenchiou@hotmail.com">yenchiou@hotmail.com</a> (Yen Chiou) & <a class="nice-link" href="mailto:antonio.carrillo.ce@gmail.com">antonio.carrillo.ce@gmail.com</a> (Antonio)
-                    </li>
-                </ul>
+            <p>@Html.Raw(localizer["contact"])
+                
             </p>
         </div>
-        </div>
+    </div>
 </section>

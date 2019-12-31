@@ -294,6 +294,10 @@ section h1, h2 {
         font-weight: bold;
     }
 
+#where-section-2 .col-lg-3 p {
+    padding: 10px 40px 0px 40px;
+}
+
 .dropdown-menu {
     margin-top: 0;
     color: #DEF2F1;
