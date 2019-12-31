@@ -139,6 +139,7 @@ header {
     .timeline-card p {
         padding: 0 20px;
         min-height: 132px;
+        padding-bottom: 10px;
 
     }
 
